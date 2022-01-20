@@ -1,0 +1,726 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(../img/body.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+a{
+	text-decoration: none;
+}
+
+/*************
+
+Head section
+
+****************/
+
+header{
+	width: 100%;
+	background-color: white !important;
+        padding-bottom: 20px;
+}
+
+
+.navbar-brand img{
+	width: 225px;
+	height: auto;
+}
+
+.nav-link{
+	color: #372f2d !important;
+	font-family: 'Oswald', sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 30px 0px;
+
+
+}
+
+.nav-link:hover{
+	color: #dc3545 !important;
+	transition: 0.3s;
+}
+.nav-item{
+	margin: 0px 12px;
+}
+
+.main-nav{
+	margin-top: 26px;
+}
+
+.active{
+	color: #dc3545 !important;
+}
+
+.btn-top{
+    font-size: 15px;
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    padding: 9px 19px;
+    border: none;
+    border-radius: 0;
+}
+
+
+
+
+header form{
+	position: relative;
+}
+
+header form::before{
+	content: 'FIND YOUR SMOKEY BONES';
+	position: absolute;
+	left: 0;
+	top: -20px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+header form input{
+	border: none;
+	border: solid 1.5px #372f2d !important;
+    background-color: #fff!important;
+    height: 43px;
+    width: 200;
+	
+}
+
+header form input::placeholder{
+	font-family: 'Oswald', sans-serif;
+
+}
+.form-control{
+	border-radius: 0 !important;
+
+}
+
+
+.input-group{
+	width: 270px;
+}
+
+
+.sub-menu ul li {
+	;list-style: none;
+}
+
+
+.sub-menu{
+	width: 100%;
+    background-color: #eeecec !important;
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    top: 125px;
+    padding-top: 10px;
+    opacity: 0;
+}
+
+.nav-item:hover .sub-menu{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+
+.sub-menu1 ul li {
+	;list-style: none;
+}
+
+
+.sub-menu1{
+	width: 100%;
+    height: 140px;
+    background-color: #eeecec !important;
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    top: 125px;
+    padding-top: 10px;
+    opacity: 0;
+}
+
+.nav-item:hover .sub-menu1{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.sub-menu2 ul li {
+	;list-style: none;
+}
+
+
+.sub-menu2{
+	width: 100%;
+    height: 70px;
+    background-color: #eeecec !important;
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    top: 125px;
+    padding-top: 10px;
+    opacity: 0;
+}
+
+.nav-item:hover .sub-menu2{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.navbar{
+	position: inherit;
+}
+
+
+.nav-link1{
+	color: #372f2d !important;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.nav-link1:hover{
+	color: #dc3545 !important;
+	transition: 0.3s;
+}
+
+
+.nav-item1{
+	margin: 8px 12px;
+}
+
+
+/*****************
+
+top banner
+
+******************/
+
+#top-banner{
+	width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    /* bottom: 1.25rem; */
+    left: 10%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: start;
+    top: 25%;
+}
+
+
+.top-content img{
+	margin-left: -7px;
+}
+
+.top-content h2{
+	text-transform: uppercase;
+    font-weight: 600;
+    font-size: 4.75rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.top-content h3{
+	text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+}
+.top-content button{
+    padding: 9px;
+    width: 170px;
+    background: 0 0;
+    background-position: top center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-image: url(../img/bgbtn1.png);
+    background-position: top;
+    border: none;
+    margin-top: 15px;
+
+}
+
+.top-content button:hover{
+	background-image: url(../img/bgbtn1.png);
+    background-position: bottom;
+}
+
+/*
+
+main-banner
+
+*/
+
+
+#main-banner{
+	background-image: url(../img/banner-bg.png);
+	background-size: cover;
+	width: 95%;
+	margin-top: 80px;
+	margin: 30PX 40PX 0px 40px;
+	border-radius: 10PX;
+	text-align: center;
+	padding: 60px 25px;
+
+}
+
+.text h2 span{
+	white-space: nowrap;
+    display: inline-block;
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+   font-family: 'Oswald', sans-serif;
+   text-transform: uppercase;
+   border-bottom: solid 6px white;
+   border-top-right-radius: 6;
+   padding-bottom: 30px;
+
+}
+
+.text h2 p{
+	white-space: nowrap;
+    display: inline-block;
+    font-size: 35.7632px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+}
+
+.text button{
+    padding: 9px;
+    width: 170px;
+    background: 0 0;
+    background-position: top center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-image: url(../img/bgbtn1.png);
+    background-position: top;
+    border: none;
+    margin-top: 15px;
+
+}
+
+.text button:hover{
+	background-image: url(../img/bgbtn1.png);
+    background-position: bottom;
+}
+
+/**************
+
+menu list
+
+***************/
+
+#menu-list{
+	margin: 20px 30px;
+}
+
+.menu-item img{
+	width: 100%;
+	border-radius: 9px;
+}
+
+
+.img-menu{
+	padding: 20px 0px;
+    background-image: url(../img/textbg.png);
+    background-size: cover;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 140px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.img-menu h2{
+	white-space: nowrap;
+    display: inline-block;
+    font-size: 37.9057px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: ;
+}
+
+.img-menu p{
+	white-space: nowrap;
+    display: inline-block;
+    font-size: 25.6741px;
+    font-family: 'Zilla Slab', serif;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.pt{
+
+	font-family: "Zilla Slab",serif;
+    color: #372f2d;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+.menu-item button{
+	padding: 9px;
+    width: 170px;
+    background: 0 0;
+    background-position: top center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-image: url(../img/bgbtn1.png);
+    background-position: top;
+    border: none;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.menu-item button:hover{
+	background-image: url(../img/bgbtn1.png);
+    background-position: bottom;
+}
+
+/*
+
+bottom banner
+
+*/
+
+
+.text1 h2 span{
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 46px;
+    color: white;
+    font-weight: 600;
+   font-family: "Zilla Slab",serif;
+   text-transform: uppercase;
+   border-bottom: solid 6px white;
+   border-top-right-radius: 6;
+   padding-bottom: 20px;
+
+}
+
+.text1 p{
+   font-size: 1.025rem;
+   font-family: Oswald,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.text1 button{
+    padding: 9px;
+    width: 170px;
+    background: 0 0;
+    background-position: top center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-image: url(../img/bgbtn1.png);
+    background-position: top;
+    border: none;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.text1 button:hover{
+    background-image: url(../img/bgbtn1.png);
+    background-position: bottom;
+}
+
+/*
+
+cup section
+
+*/
+
+#cup{
+    margin-top: 20px;
+    width: 100%
+}
+
+.image{
+    width: 100%;
+    margin-left: 30px;
+}
+
+.cup-text{
+    margin-right: 30px;
+    margin-top: 90px;
+}
+
+.cup-text h3{
+    font-size: 72px;
+    font-family: "Zilla Slab",serif;
+    margin-left: 142px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 100%;
+    color: #372f2d;
+}
+
+.cup-text h2{
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 118.503px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #372f2d;
+    border-bottom: solid 5px #372f2d;
+    text-align: center;
+    margin-left: 142px;
+    margin-top: -25px;
+    padding-bottom: 25px;
+
+}
+
+.cup-text p{
+    font-family: "Zilla Slab",serif;
+    color: #372f2d;
+    margin-bottom: 20px;
+    font-size:18px;
+    margin-left: 142px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.cup-text button{
+    padding: 9px;
+    width: 170px;
+    background: 0 0;
+    background-position: top center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-image: url(../img/bgbtn1.png);
+    background-position: top;
+    border: none;
+    margin-top: 15px;
+    margin-left: 142px;
+
+}
+
+.cup-text button:hover{
+     background-image: url(../img/bgbtn1.png);
+    background-position: bottom;
+}
+
+/*
+
+footer-top
+
+*/
+#main-banner1{
+    background-image: url(../img/bannerbg1.png);
+    background-size: cover;
+    width: 95%;
+    margin-top: 80px;
+    margin: 30PX 40PX 0px 40px;
+    border-radius: 10PX;
+    text-align: center;
+    padding: 60px 25px;
+
+}
+
+.ss{
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 63px;
+    color: white;
+    font-weight: 400;
+   font-family: "Zilla Slab",serif;
+   text-transform: uppercase;
+   border-top-right-radius: 6;
+   padding-bottom: 0;
+}
+
+.tt{
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+    border-bottom: solid 6px white;
+    padding-bottom: 20px;
+}
+
+.text2 p{
+    font-size: 1.325rem;
+    margin-bottom: 25px;
+    text-align: left;
+    font-family: Oswald,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.text2 button{
+    padding: 9px;
+    width: 170px;
+    background: 0 0;
+    background-position: top center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-image: url(../img/bgbtn1.png);
+    background-position: top;
+    border: none;
+    margin-top: 15px;
+    margin-left: -120px;
+}
+
+.text2 button:hover{
+    background-image: url(../img/bgbtn1.png);
+    background-position: bottom;
+}
+
+/*
+
+footer-section
+
+*/
+
+
+footer{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.footer-section img{
+    width: 250px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.facebook a i{
+   color: transparent;
+    width: 60px;
+    /* background: red; */
+    height: 60px;
+    line-height: 60px;
+    margin-top: 25px;
+    font-size: 40px;
+    background-image: url(../img/icon.f.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+.facebook a i:hover{
+    background-image: url(../img/icon.f.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.twitter a i:hover{
+    background-image: url(../img/icon.t.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.insta a i:hover{
+    background-image: url(../img/icon.i.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.twitter a i{
+   color: transparent;
+    width: 60px;
+    /* background: red; */
+    height: 60px;
+    line-height: 60px;
+    margin-top: 25px;
+    font-size: 40px;
+    background-image: url(../img/icon.t.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+
+.insta a i{
+   color: transparent;
+    width: 60px;
+    /* background: red; */
+    height: 60px;
+    line-height: 60px;
+    margin-top: 25px;
+    font-size: 40px;
+    background-image: url(../img/icon.i.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+.footer-section ul li a{
+    color: #372f2d;
+}
+
+.footer-section ul li{
+    list-style: none;
+    display: inline-block;
+    border-right: solid 1px #372f2d;;
+    padding: 0px 7px;
+    font-family: "Zilla Slab",serif;
+    font-size: 12px;
+    margin-left: -5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section p{
+    color: #372f2d;
+    font-size: .75rem;
+    margin-bottom: 0;
+    display: inline-block;
+    font-family: "Zilla Slab",serif;
+    font-weight: 400;
+
+}
